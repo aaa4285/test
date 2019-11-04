@@ -1,1 +1,1 @@
-web: java -Dspring.server.port=8000 $JAVA_OPTS -jar /app/target/kakaoTest-0.0.1-SNAPSHOT.war
+web: java -Dspring.server.port=8000 -Dspring.profiles.active=dev $JAVA_OPTS -jar /app/target/kakaoTest-0.0.1-SNAPSHOT.war
